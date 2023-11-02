@@ -1,0 +1,54 @@
+/* Ẩn dropdown ban đầu */
+.nav-dropdown .show .dropdown-menu {
+  display: none;
+}
+
+/* Hiển thị dropdown khi hover */
+.nav-dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+/* Ẩn mũi tên caret trong dropdown */
+.dropdown-toggle.nav-link::after {
+  display: none;
+}
+
+.dropdown-menu {
+  width: max-content;
+  border: none !important;
+}
+
+.title-dropdown,
+.dropdown-item {
+  font-size: 1.2em;
+}
+
+.title-dropdown{
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+}
+
+@media (max-width: 1024px) {
+  .dropdown-menu {
+    width: 100%;
+  }
+  .title-item-mobile .dropdown-toggle{
+    color: var(--dark) !important;
+    padding-left: 10px;
+    font-size: 1.2em;
+  }
+
+  .title-item-mobile .dropdown-toggle.nav-link::after {
+    display: block;
+  }
+}

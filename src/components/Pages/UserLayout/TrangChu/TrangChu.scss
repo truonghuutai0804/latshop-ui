@@ -1,0 +1,30 @@
+.categories-home{
+    // background-color: #dc3545;
+    margin: 0px !important;
+}
+
+.categories-home ul{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0px;
+}
+
+.categories-home li:hover{
+    background-color: var(--yellow);
+}
+
+.categories-home a{
+    color: var(--black) !important;
+}
+
+.slides-home{
+    display: block;
+    text-align: -webkit-center;
+}
+
+.dropdown-home{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
